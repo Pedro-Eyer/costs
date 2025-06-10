@@ -1,14 +1,14 @@
-import HelloWorld from './components/HelloWorld';
 import './App.css';
-import Frase from './components/Frase';
-import List from './components/list';
+import Evento from './components/Evento';
+import Form from './components/Form';
+
 
 function App() {
   return (
     <div className="App">
-      <HelloWorld />
-      <Frase />
-      <List />
+      <h1>Testando Eventos</h1>
+      <Evento numero="1" />
+      <Form></Form>
     </div>
   );
 }
